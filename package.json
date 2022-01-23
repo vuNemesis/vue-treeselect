@@ -30,6 +30,7 @@
     "verify-builds": "size-limit && node build/verify-builds.js",
     "finish": "npm test && npm run build-library && npm run verify-builds"
   },
+  "pre-commit": "lint",
   "dependencies": {
     "@babel/runtime": "^7.3.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
