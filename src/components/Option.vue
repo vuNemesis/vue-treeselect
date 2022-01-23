@@ -158,6 +158,7 @@
 
       renderLabel() {
         const { instance, node } = this
+        // console.log(node)
         const shouldShowCount = (
           node.isBranch && (instance.localSearch.active
             ? instance.showCountOnSearchComputed
